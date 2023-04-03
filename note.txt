@@ -1,0 +1,7 @@
+可以自virtual environment執行terraform apply，要安裝python-terraform
+
+terraform init
+terraform apply --auto-approve -var-file="EC2_variable.tfvars.json"
+terraform destroy --auto-approve -var-file="EC2_variable.tfvars.json"
+
+git add . --force
